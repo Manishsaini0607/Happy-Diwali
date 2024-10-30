@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  font-family: cursive;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(diwaliBackground.webp);
+  background-size: 100%;
+}
+
+.name{ 
+  font-size: 15vw;
+  font-weight: 100;
+  color: white;
+  position: absolute;
+  top: 22vw;
+  right: 30vw;
+  z-index: 1;
+ 
+}
+
+
+.deepak{ 
+  display: none;
+  position: absolute;
+  top: 24vw;
+  right: 42vw;
+  width: 15vw;
+  height: 16vw;
+}
+
+.cracker{ 
+  display: none;
+  position: absolute;
+  top: 3vw;
+  right: 10vw;
+  width: 80vw;
+  height: 90vh;
+}
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+   color: white;
+  background: rgb(53, 144, 187);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+
+  color:rgb(23, 62, 107);
+ 
+}
+
+button {border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 15px;
+  cursor:pointer;
+  background-color:rgb(21, 46, 75);
+ 
+}
+
+@media(max-width:600px){
+
+.name{
+  top: 79vw;
+    right: 26vw;
+}
+}
